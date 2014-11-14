@@ -1,0 +1,6 @@
+version 1:
+  seed the datavase with music items
+  view a list of all music items
+  add new music items
+  delete music items
+  update/edit items

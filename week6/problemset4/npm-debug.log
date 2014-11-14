@@ -1,0 +1,346 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'generator-refactoru-html' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'generator-refactoru-html', '*' ]
+6 verbose cache add name="generator-refactoru-html" spec="*" args=["generator-refactoru-html","*"]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '*',
+7 verbose parsed url   path: '*',
+7 verbose parsed url   href: '*' }
+8 verbose addNamed [ 'generator-refactoru-html', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+11 verbose lock generator-refactoru-html@* /Users/student/.npm/dbbc1580-generator-refactoru-html.lock
+12 silly addNameRange { name: 'generator-refactoru-html', range: '*', hasData: false }
+13 verbose url raw generator-refactoru-html
+14 verbose url resolving [ 'https://registry.npmjs.org/', './generator-refactoru-html' ]
+15 verbose url resolved https://registry.npmjs.org/generator-refactoru-html
+16 info trying registry request attempt 1 at 12:08:03
+17 verbose etag "6I4R5D86ESGYWTFNATFVS3XHD"
+18 http GET https://registry.npmjs.org/generator-refactoru-html
+19 http 200 https://registry.npmjs.org/generator-refactoru-html
+20 silly registry.get cb [ 200,
+20 silly registry.get   { date: 'Mon, 13 Oct 2014 18:08:04 GMT',
+20 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly registry.get     etag: '"5SAP0F7POMOD119B8DEEQ1X54"',
+20 silly registry.get     'content-type': 'application/json',
+20 silly registry.get     'cache-control': 'max-age=60',
+20 silly registry.get     'content-length': '14626',
+20 silly registry.get     'accept-ranges': 'bytes',
+20 silly registry.get     via: '1.1 varnish',
+20 silly registry.get     age: '3538',
+20 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+20 silly registry.get     'x-cache': 'MISS',
+20 silly registry.get     'x-cache-hits': '0',
+20 silly registry.get     'x-timer': 'S1413223683.997269,VS0,VE60',
+20 silly registry.get     vary: 'Accept',
+20 silly registry.get     'keep-alive': 'timeout=10, max=50',
+20 silly registry.get     connection: 'Keep-Alive' } ]
+21 silly addNameRange number 2 { name: 'generator-refactoru-html', range: '*', hasData: true }
+22 silly addNameRange versions [ 'generator-refactoru-html',
+22 silly addNameRange   [ '0.0.0',
+22 silly addNameRange     '0.0.1',
+22 silly addNameRange     '0.0.2',
+22 silly addNameRange     '0.1.0',
+22 silly addNameRange     '0.1.1',
+22 silly addNameRange     '0.2.0',
+22 silly addNameRange     '0.3.0',
+22 silly addNameRange     '0.3.1',
+22 silly addNameRange     '0.3.2',
+22 silly addNameRange     '0.5.0' ] ]
+23 verbose addNamed [ 'generator-refactoru-html', '0.5.0' ]
+24 verbose addNamed [ '0.5.0', '0.5.0' ]
+25 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+26 verbose lock generator-refactoru-html@0.5.0 /Users/student/.npm/f37c81d7-generator-refactoru-html-0-5-0.lock
+27 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+28 verbose lock https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz /Users/student/.npm/32a4ae25-nerator-refactoru-html-0-5-0-tgz.lock
+29 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz',
+29 verbose addRemoteTarball   'f9c7d2a18c93914dd67e548e2331134a827105a7' ]
+30 info retry fetch attempt 1 at 12:08:07
+31 verbose fetch to= /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz
+32 http GET https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+33 http 200 https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+34 verbose tar unpack /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz
+35 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+36 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package /Users/student/.npm/c86ac552-86139-0-5330049567855895-package.lock
+37 silly lockFile f09dfe2a-86139-0-5330049567855895-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz
+38 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz /Users/student/.npm/f09dfe2a-86139-0-5330049567855895-tmp-tgz.lock
+39 silly gunzTarPerm modes [ '755', '644' ]
+40 silly gunzTarPerm extractEntry package.json
+41 silly gunzTarPerm extractEntry README.md
+42 silly gunzTarPerm extractEntry app/index.js
+43 silly gunzTarPerm extractEntry app/templates/main-jquery.js
+44 silly gunzTarPerm extractEntry app/templates/index.html
+45 silly gunzTarPerm extractEntry app/templates/test/spec.js
+46 silly gunzTarPerm extractEntry app/templates/test/MIT.LICENSE
+47 silly gunzTarPerm extractEntry app/templates/test/SpecRunner.html
+48 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/boot.js
+49 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/console.js
+50 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine-html.js
+51 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.js
+52 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.css
+53 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine_favicon.png
+54 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+55 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+56 silly lockFile f09dfe2a-86139-0-5330049567855895-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz
+57 silly lockFile f09dfe2a-86139-0-5330049567855895-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/tmp.tgz
+58 verbose tar pack [ '/Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz',
+58 verbose tar pack   '/var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package' ]
+59 verbose tarball /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+60 verbose folder /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+61 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+62 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package /Users/student/.npm/c86ac552-86139-0-5330049567855895-package.lock
+63 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+64 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz /Users/student/.npm/2a842f44-refactoru-html-0-5-0-package-tgz.lock
+65 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+66 silly lockFile c86ac552-86139-0-5330049567855895-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223686139-0.5330049567855895/package
+67 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+68 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+69 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+70 verbose lock /Users/student/.npm/generator-refactoru-html/0.5.0/package /Users/student/.npm/1a84651d-tor-refactoru-html-0-5-0-package.lock
+71 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+72 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+73 verbose tar unpack /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+74 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+75 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package /Users/student/.npm/b75f154d-tor-refactoru-html-0-5-0-package.lock
+76 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+77 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz /Users/student/.npm/2a842f44-refactoru-html-0-5-0-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry README.md
+81 silly gunzTarPerm extractEntry app/index.js
+82 silly gunzTarPerm extractEntry app/templates/main-jquery.js
+83 silly gunzTarPerm extractEntry app/templates/index.html
+84 silly gunzTarPerm extractEntry app/templates/test/spec.js
+85 silly gunzTarPerm extractEntry app/templates/test/MIT.LICENSE
+86 silly gunzTarPerm extractEntry app/templates/test/SpecRunner.html
+87 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/boot.js
+88 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/console.js
+89 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine-html.js
+90 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.js
+91 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.css
+92 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine_favicon.png
+93 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+94 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+95 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+96 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+97 verbose chmod /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz 644
+98 verbose chown /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz [ 506, 20 ]
+99 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+100 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+101 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+102 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+103 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+104 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+105 info outdated updating [ [ '/usr/local/lib',
+105 info outdated     'generator-refactoru-html',
+105 info outdated     '0.3.2',
+105 info outdated     '0.5.0',
+105 info outdated     '*' ] ]
+106 verbose install where,what [ '/usr/local/lib', [ 'generator-refactoru-html@0.5.0' ] ]
+107 verbose cache add [ 'generator-refactoru-html@0.5.0', null ]
+108 verbose cache add name=undefined spec="generator-refactoru-html@0.5.0" args=["generator-refactoru-html@0.5.0",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'generator-refactoru-html@0.5.0',
+109 verbose parsed url   path: 'generator-refactoru-html@0.5.0',
+109 verbose parsed url   href: 'generator-refactoru-html@0.5.0' }
+110 verbose cache add name="generator-refactoru-html" spec="0.5.0" args=["generator-refactoru-html","0.5.0"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '0.5.0',
+111 verbose parsed url   path: '0.5.0',
+111 verbose parsed url   href: '0.5.0' }
+112 verbose addNamed [ 'generator-refactoru-html', '0.5.0' ]
+113 verbose addNamed [ '0.5.0', '0.5.0' ]
+114 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+115 verbose lock generator-refactoru-html@0.5.0 /Users/student/.npm/f37c81d7-generator-refactoru-html-0-5-0.lock
+116 verbose url raw generator-refactoru-html/0.5.0
+117 verbose url resolving [ 'https://registry.npmjs.org/',
+117 verbose url resolving   './generator-refactoru-html/0.5.0' ]
+118 verbose url resolved https://registry.npmjs.org/generator-refactoru-html/0.5.0
+119 info trying registry request attempt 1 at 12:08:09
+120 http GET https://registry.npmjs.org/generator-refactoru-html/0.5.0
+121 http 200 https://registry.npmjs.org/generator-refactoru-html/0.5.0
+122 silly registry.get cb [ 200,
+122 silly registry.get   { date: 'Mon, 13 Oct 2014 18:08:09 GMT',
+122 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly registry.get     etag: '"5SAP0F7POMOD119B8DEEQ1X54"',
+122 silly registry.get     'content-type': 'application/json',
+122 silly registry.get     'cache-control': 'max-age=60',
+122 silly registry.get     'content-length': '1297',
+122 silly registry.get     'accept-ranges': 'bytes',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     age: '0',
+122 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+122 silly registry.get     'x-cache': 'MISS',
+122 silly registry.get     'x-cache-hits': '0',
+122 silly registry.get     'x-timer': 'S1413223689.258534,VS0,VE74',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+124 verbose lock https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz /Users/student/.npm/32a4ae25-nerator-refactoru-html-0-5-0-tgz.lock
+125 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz',
+125 verbose addRemoteTarball   'f9c7d2a18c93914dd67e548e2331134a827105a7' ]
+126 info retry fetch attempt 1 at 12:08:09
+127 verbose fetch to= /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz
+128 http GET https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+129 http 200 https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+130 verbose tar unpack /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz
+131 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+132 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package /Users/student/.npm/06ee9d18-89295-0-7975213336758316-package.lock
+133 silly lockFile 2cb6a6d9-89295-0-7975213336758316-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz
+134 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz /Users/student/.npm/2cb6a6d9-89295-0-7975213336758316-tmp-tgz.lock
+135 silly gunzTarPerm modes [ '755', '644' ]
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm extractEntry README.md
+138 silly gunzTarPerm extractEntry app/index.js
+139 silly gunzTarPerm extractEntry app/templates/main-jquery.js
+140 silly gunzTarPerm extractEntry app/templates/index.html
+141 silly gunzTarPerm extractEntry app/templates/test/spec.js
+142 silly gunzTarPerm extractEntry app/templates/test/MIT.LICENSE
+143 silly gunzTarPerm extractEntry app/templates/test/SpecRunner.html
+144 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/boot.js
+145 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/console.js
+146 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine-html.js
+147 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.js
+148 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.css
+149 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine_favicon.png
+150 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+151 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+152 silly lockFile 2cb6a6d9-89295-0-7975213336758316-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz
+153 silly lockFile 2cb6a6d9-89295-0-7975213336758316-tmp-tgz tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/tmp.tgz
+154 verbose tar pack [ '/Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz',
+154 verbose tar pack   '/var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package' ]
+155 verbose tarball /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+156 verbose folder /var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+157 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+158 verbose lock tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package /Users/student/.npm/06ee9d18-89295-0-7975213336758316-package.lock
+159 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+160 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz /Users/student/.npm/2a842f44-refactoru-html-0-5-0-package-tgz.lock
+161 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+162 silly lockFile 06ee9d18-89295-0-7975213336758316-package tar:///var/folders/q1/1t501pjx4hn9sbnvhmb8bvg80000gt/T/npm-2377-DWbw9au-/1413223689295-0.7975213336758316/package
+163 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+164 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+165 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+166 verbose lock /Users/student/.npm/generator-refactoru-html/0.5.0/package /Users/student/.npm/1a84651d-tor-refactoru-html-0-5-0-package.lock
+167 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+168 silly lockFile 1a84651d-tor-refactoru-html-0-5-0-package /Users/student/.npm/generator-refactoru-html/0.5.0/package
+169 verbose tar unpack /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+170 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+171 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package /Users/student/.npm/b75f154d-tor-refactoru-html-0-5-0-package.lock
+172 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+173 verbose lock tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz /Users/student/.npm/2a842f44-refactoru-html-0-5-0-package-tgz.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm extractEntry app/index.js
+178 silly gunzTarPerm extractEntry app/templates/main-jquery.js
+179 silly gunzTarPerm extractEntry app/templates/index.html
+180 silly gunzTarPerm extractEntry app/templates/test/spec.js
+181 silly gunzTarPerm extractEntry app/templates/test/MIT.LICENSE
+182 silly gunzTarPerm extractEntry app/templates/test/SpecRunner.html
+183 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/boot.js
+184 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/console.js
+185 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine-html.js
+186 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.js
+187 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine.css
+188 silly gunzTarPerm extractEntry app/templates/test/lib/jasmine-2.0.0/jasmine_favicon.png
+189 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+190 silly lockFile b75f154d-tor-refactoru-html-0-5-0-package tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package
+191 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+192 silly lockFile 2a842f44-refactoru-html-0-5-0-package-tgz tar:///Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz
+193 verbose chmod /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz 644
+194 verbose chown /Users/student/.npm/generator-refactoru-html/0.5.0/package.tgz [ 506, 20 ]
+195 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+196 silly lockFile 32a4ae25-nerator-refactoru-html-0-5-0-tgz https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz
+197 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+198 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+199 silly resolved [ { name: 'generator-refactoru-html',
+199 silly resolved     version: '0.5.0',
+199 silly resolved     description: 'Yeoman generator for a simple HTML5 boilerplate.',
+199 silly resolved     license: 'ISC',
+199 silly resolved     main: 'app/index.js',
+199 silly resolved     repository:
+199 silly resolved      { type: 'git',
+199 silly resolved        url: 'git://github.com/RefactorU/generator-refactoru-html' },
+199 silly resolved     author:
+199 silly resolved      { name: 'Raine Lourie',
+199 silly resolved        email: 'raine@refactoru.com',
+199 silly resolved        url: 'https://github.com/metaraine' },
+199 silly resolved     engines: { node: '>=0.10.0' },
+199 silly resolved     scripts: { test: 'mocha' },
+199 silly resolved     files: [ 'app' ],
+199 silly resolved     keywords: [ 'yeoman-generator', 'refactoru' ],
+199 silly resolved     dependencies: { 'yeoman-generator': '~0.16.0', chalk: '~0.4.0' },
+199 silly resolved     devDependencies: { mocha: '*' },
+199 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+199 silly resolved     readme: '# generator-refactoru-html [![Build Status](https://secure.travis-ci.org/metaraine/generator-refactoru-html.png?branch=master)](https://travis-ci.org/metaraine/generator-refactoru-html)\n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-refactoru-html from npm, run:\n\n```\n$ npm install -g generator-refactoru-html\n```\n\nFinally, initiate the generator:\n\n```\n$ yo refactoru-html\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+199 silly resolved     readmeFilename: 'README.md',
+199 silly resolved     bugs: { url: 'https://github.com/RefactorU/generator-refactoru-html/issues' },
+199 silly resolved     _id: 'generator-refactoru-html@0.5.0',
+199 silly resolved     dist: { shasum: 'b1c1b73d697e455552e3a0551c71645ae5ca73de' },
+199 silly resolved     _from: 'generator-refactoru-html@0.5.0',
+199 silly resolved     _resolved: 'https://registry.npmjs.org/generator-refactoru-html/-/generator-refactoru-html-0.5.0.tgz' } ]
+200 info install generator-refactoru-html@0.5.0 into /usr/local/lib
+201 info installOne generator-refactoru-html@0.5.0
+202 info /usr/local/lib/node_modules/generator-refactoru-html unbuild
+203 info preuninstall generator-refactoru-html@0.3.2
+204 info uninstall generator-refactoru-html@0.3.2
+205 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-refactoru-html@0.3.2
+206 info postuninstall generator-refactoru-html@0.3.2
+207 info /usr/local/lib/node_modules/generator-refactoru-html unbuild
+208 info preuninstall generator-refactoru-html@0.3.2
+209 info uninstall generator-refactoru-html@0.3.2
+210 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-refactoru-html@0.3.2
+211 info postuninstall generator-refactoru-html@0.3.2
+212 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+212 error error rolling back  generator-refactoru-html@0.5.0 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html']
+212 error error rolling back   errno: 3,
+212 error error rolling back   code: 'EACCES',
+212 error error rolling back   path: '/usr/local/lib/node_modules/generator-refactoru-html' }
+213 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+213 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html']
+213 error   errno: 3,
+213 error   code: 'EACCES',
+213 error   path: '/usr/local/lib/node_modules/generator-refactoru-html' }
+214 error Please try running this command again as root/Administrator.
+215 error System Darwin 13.3.0
+216 error command "node" "/usr/local/bin/npm" "update" "-g" "generator-refactoru-html"
+217 error cwd /Users/student/projects/week6/problemset4
+218 error node -v v0.10.31
+219 error npm -v 1.3.11
+220 error path /usr/local/lib/node_modules/generator-refactoru-html
+221 error code EACCES
+222 error errno 3
+223 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+224 verbose exit [ 3, true ]

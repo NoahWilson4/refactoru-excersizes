@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+	h1 Submit an Entry:
+	h1= full
+	form(method="post", action="/entrySubmit")
+		div.form-group
+			label Name:
+			input(type="text" name="name" placeholder="Name...").form-control
+			label URL:
+			input(type="text", name="url", placeholder="url...").form-control
+			label Title:
+			input(type="text", name="title", placeholder="Title...").form-control
+			label Description:
+			input(type="text", name="description", placeholder="Description...").form-control
+			input(type="Submit").btn.btn-default

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+	h2= thisEntry.name
+	h3= thisEntry.title
+	<iframe width="560" height="315" src="#{thisEntry.url}" frameborder="0" allowfullscreen></iframe>
+	h4 Description:
+	p= thisEntry.description

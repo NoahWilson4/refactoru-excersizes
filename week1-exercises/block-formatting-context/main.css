@@ -1,0 +1,14 @@
+.container {
+	background: #F00;
+	/*display: inline-block;*/
+	/*float: left;*/
+	overflow: hidden;
+}
+
+.container-alt {
+	background: #0F0;
+}
+
+.container div {
+	float: left;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "npm-samples",
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "moment": "~2.8.3"
+  }
+}

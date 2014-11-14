@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h1 Barf-O-Rama
+	h3 Menu of Desserts
+
+	p: a(href="/about")
+
+	form(method="post", action="desertSubmit")
+		input(type="text", name="name", placeholder="Name")
+		input(type="text", name="cost", placeholder="cost")
+		input(type="text", name="rating", placeholder="rating")
+		input(type="text", name="flavor", placeholder="flavor")
+		input(type="submit",)
+	ul
+		for dessert in desserts
+			li
+				h5= dessert.name
+				
+				p= dessert.flavor
+				p: strong Dessert Rating #{dessert.rating} 

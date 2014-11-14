@@ -1,0 +1,23 @@
+.rel {
+	
+	background: #F00;
+	
+}
+
+.rel-inner {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.abs {
+	background: #0F0;
+}
+
+.fix {
+	background: #00F;
+}
+
+
+
+

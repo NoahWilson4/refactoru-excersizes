@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1 Chunked out into #{num} Groups:
+
+
+
+	ul
+		//- for chunk in chunked
+		//- 	li= chunk
+		for chunk in chunked
+			li
+				ul
+					for person in chunk
+						li= person	

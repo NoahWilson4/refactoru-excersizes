@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Handlebars</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1> Party: </h1>
+      <div id="party"></div>
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+
+    <!-- template for handlebars -->
+    <!-- need to have id for jquery to target it, type is necessary - type="text/x-handlebars-template" -->
+    {{!-- <script id="demo-template" type="text/x-handlebars-template">
+      <h1>{{name}}</h1>
+      <h3>He is {{age}} years old.</h3>
+      <p>He likes to eat {{eats}}.</p>
+      {{!-- render if variable is true --}}
+      {{#if opacity}}
+        <p>
+          <em>Opaque!</em>
+        </p>
+      {{else}}
+        <p>
+          <em>Transparent!</em>
+        </p>
+      {{/if}}
+      {{!-- if i don't have schedule --}}
+      {{#unless schedule}}
+        <p>I have no schedule</p>
+      {{else}}
+        <p>
+          In the morning i will {{schedule.morning}} and in the evening I will {{schedule.evening}}
+        </p>
+      {{/unless}}
+      <ul>
+      {{#if snacks}}
+        {{#each snacks}}
+        {{!-- handlebars sets the context of the loop to the item we pass over --}}
+          <li>{{@index}}{{this}}</li>
+        {{/each}}
+      {{/if}}
+    </script> --}}
+    <script id="partyPerson" type="text/x-handlebars-template">
+      <h1>{{name}}</h1>
+      <ul>
+        {{#each bringing}}
+          <li>{{this}}</li>
+        {{/each}}
+    </script>
+
+  </body>
+</html>

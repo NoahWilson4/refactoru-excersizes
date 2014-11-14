@@ -1,0 +1,14 @@
+{
+  "name": "web-colors-api",
+  "version": "0.0.0",
+  "description": "web colors api excersize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noah",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "~2.45.0"
+  }
+}

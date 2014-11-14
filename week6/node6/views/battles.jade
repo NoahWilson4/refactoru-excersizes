@@ -1,0 +1,82 @@
+extends layout
+
+block content
+	h1 Best Video Contest
+	if round === 3
+		h2 Final Round!
+	else
+		h2 Round #{round}!
+	
+	if round <= 3
+		
+	h3 Battle 1:
+
+		div.row
+			div.contestant-left.col-sm-6
+				h3= entries[0].name
+				h4= entries[0].title
+				<iframe width="280" height="158" src="#{entries[0].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[0].description
+				form(method="post", action="/vote")
+					input(type="submit", value="Vote!").btn.btn-success.btn-xs
+			div.contestant-left.col-sm-6
+				h3= entries[1].name
+				h4= entries[1].title
+				<iframe width="280" height="158" src="#{entries[1].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[1].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs
+
+	if round <= 2
+
+		h3 Battle 2:
+
+		div.row
+			div.contestant-left.col-sm-6
+				h3= entries[2].name
+				h4= entries[2].title
+				<iframe width="280" height="158" src="#{entries[2].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[2].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+			div.contestant-left.col-sm-6
+				h3= entries[3].name
+				h4= entries[3].title
+				<iframe width="280" height="158" src="#{entries[3].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[3].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+
+	if round === 1
+
+		h3 Battle 3:
+
+		div.row
+			div.contestant-left.col-sm-6
+				h3= entries[4].name
+				h4= entries[4].title
+				<iframe width="280" height="158" src="#{entries[4].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[4].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+			div.contestant-left.col-sm-6
+				h3= entries[5].name
+				h4= entries[5].title
+				<iframe width="280" height="158" src="#{entries[5].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[5].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+
+
+		h3 Battle 4:
+
+		div.row
+			div.contestant-left.col-sm-6
+				h3= entries[6].name
+				h4= entries[6].title
+				<iframe width="280" height="158" src="#{entries[6].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[6].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+			div.contestant-left.col-sm-6
+				h3= entries[7].name
+				h4= entries[7].title
+				<iframe width="280" height="158" src="#{entries[7].url}" frameborder="0" allowfullscreen></iframe>
+				p= entries[7].description
+				a(href="battles"): button.vote.btn.btn-success.btn-xs Vote!
+
+	

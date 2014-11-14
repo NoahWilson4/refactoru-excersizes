@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	h1 Best Video Contest
+
+	if full
+		div.alert.alert-danger= full
+	else
+		p: a(href="submitEntry") Submit Entry
+	a(href="battles"): button.btn.btn-success.btn-lg View and Vote on Battles!
+	h3 Current Contestants:
+	ul.list-group.home-list
+		for entry in entries
+			li.list-group-item
+				a(href='/view/#{entry.name}')
+					h4= entry.name
+				h5= entry.title
